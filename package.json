@@ -1,9 +1,10 @@
 {
-  "name": "@pdfme/common",
+  "name": "@zoopsign/common",
   "version": "0.0.0",
   "sideEffects": false,
   "author": "hand-dot",
   "license": "MIT",
+  "private": true,
   "keywords": [
     "pdf",
     "pdf-generation",
@@ -16,7 +17,7 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pdfme/pdfme.git"
+    "url": "git+ssh://git@github.com/pdfme/pdfme.git"
   },
   "bugs": {
     "url": "https://github.com/pdfme/pdfme/issues"
@@ -70,7 +71,9 @@
     ]
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/@ZoopSign",
+    "access": "private"
   },
-  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e",
+  "devDependencies": {}
 }
