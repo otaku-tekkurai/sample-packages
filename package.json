@@ -4,7 +4,6 @@
   "sideEffects": false,
   "author": "hand-dot",
   "license": "MIT",
-  "private": true,
   "keywords": [
     "pdf",
     "pdf-generation",
