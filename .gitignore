@@ -1,0 +1,4 @@
+# ignore all the node modules
+*.log
+.DS_Store
+/node_modules
